@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/potion",
+	"textures": {
+		"particle": "magmanetwork:item/server/potion",
+		"layer0": "magmanetwork:item/server/potion",
+		"layer1": "magmanetwork:item/server/invisible"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 14, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 14, 14], "texture": "#layer0"},
+				"east": {"uv": [0, 0, 14, 14], "texture": "#layer0"},
+				"south": {"uv": [0, 0, 14, 14], "texture": "#layer0"},
+				"west": {"uv": [0, 0, 14, 14], "texture": "#layer0"},
+				"up": {"uv": [0, 0, 14, 14], "texture": "#layer0"},
+				"down": {"uv": [0, 0, 14, 14], "texture": "#layer0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -20.75, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

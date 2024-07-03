@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/cookie"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "magmanetwork:item/players/daniel99j/cookie"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "magmanetwork:item/players/daniel99j/choc_cookie"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "magmanetwork:item/players/daniel99j/churro"
+    }
+  ]
+}

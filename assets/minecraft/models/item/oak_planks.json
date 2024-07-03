@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/oak_planks",
+  "overrides": [
+	{
+		
+		"predicate": {
+			"custom_model_data": 1
+		},
+		"model": "magmanetwork:item/players/hugo99j/big_oak_planks"
+	}
+  ]
+}

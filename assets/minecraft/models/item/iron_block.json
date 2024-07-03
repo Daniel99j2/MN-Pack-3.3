@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/iron_block",
+  "overrides": [
+	{
+		
+		"predicate": {
+			"custom_model_data": 1
+		},
+		"model": "magmanetwork:item/players/daniel99j/big_iron_block"
+	}
+  ]
+}

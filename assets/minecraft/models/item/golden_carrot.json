@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/golden_carrot"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "magmanetwork:item/players/daniel99j/chocolate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "magmanetwork:item/players/daniel99j/popcorn"
+    }
+  ]
+}

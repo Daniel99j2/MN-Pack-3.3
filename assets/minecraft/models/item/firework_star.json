@@ -1,0 +1,27 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/firework_star",
+        "layer1": "item/firework_star_overlay"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1000
+            },
+            "model": "item/firework_star"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1001
+            },
+            "model": "magmanetwork:item/server/paint_brush"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1002
+            },
+            "model": "magmanetwork:item/server/sleeping_bag"
+        }
+      ]
+}

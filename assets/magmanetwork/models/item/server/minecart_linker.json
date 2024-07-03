@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/chain",
+	"display": {
+		"head": {
+			"rotation": [90, 0, 0]
+		}
+	}
+}

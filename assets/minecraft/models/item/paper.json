@@ -1,0 +1,284 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/paper"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "magmanetwork:item/players/daniel99j/ticket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "magmanetwork:item/players/daniel99j/ticket_vip"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "magmanetwork:item/players/daniel99j/ticket_week"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "magmanetwork:item/players/daniel99j/balloon"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "magmanetwork:item/players/daniel99j/fire"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1001
+			},
+			"model": "minecraft:item/paper"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1002
+			},
+			"model": "magmanetwork:item/server/wildfire/wildfirehead"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1003
+			},
+			"model": "magmanetwork:item/server/wildfire/wildfirebody"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1004
+			},
+			"model": "magmanetwork:item/server/wildfire/wildfireshields"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1005
+			},
+			"model": "magmanetwork:item/server/invisible"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1006
+			},
+			"model": "magmanetwork:item/server/grave"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1007
+			},
+			"model": "magmanetwork:item/server/hideanviltext"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1008
+			},
+			"model": "magmanetwork:item/server/grave_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1010
+			},
+			"model": "magmanetwork:item/server/toggle_no"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1011
+			},
+			"model": "magmanetwork:item/server/toggle_yes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1012
+			},
+			"model": "invalid_model:item/invalid_model"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1013
+			},
+			"model": "magmanetwork:item/server/invalid_texture"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1014
+			},
+			"model": "magmanetwork:item/server/portal_survival"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1015
+			},
+			"model": "magmanetwork:item/server/features_portal"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1016
+			},
+			"model": "magmanetwork:item/server/empty_slot"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1017
+			},
+			"model": "magmanetwork:item/server/full_slot"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1018
+			},
+			"model": "magmanetwork:item/server/firefly"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1019
+			},
+			"model": "magmanetwork:item/server/firefly_in_a_bottle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1020
+			},
+			"model": "magmanetwork:item/server/minecart_linker"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1021
+			},
+			"model": "magmanetwork:item/server/light_beacon/light_beacon_item"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1022
+			},
+			"model": "magmanetwork:item/server/light_beacon/light_beacon_off"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1023
+			},
+			"model": "magmanetwork:item/server/light_beacon/light_beacon_on"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1024
+			},
+			"model": "magmanetwork:item/server/light_beacon/light_beacon_redstone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1025
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_legs0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1026
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_legs1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1027
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_legs2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1028
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_legs3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1029
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_arms0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1030
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_arms1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1031
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_arms2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1032
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_arms3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1033
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_torso0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1034
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_torso1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1035
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_torso2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1036
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_torso3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1037
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_head0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1038
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_head1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1039
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_head2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1040
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_head3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1041
+			},
+			"model": "magmanetwork:item/server/custom_painting"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1042
+			},
+			"model": "magmanetwork:item/server/eyes"
+		}
+	]
+}

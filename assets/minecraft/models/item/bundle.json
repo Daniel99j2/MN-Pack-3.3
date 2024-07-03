@@ -1,0 +1,51 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/bundle"
+    },
+    "overrides": [
+        { "predicate": { "filled": 0.0000001 }, "model": "item/bundle_filled" },
+        {
+            "predicate": {
+                "custom_model_data": 1,
+                "filled": 0
+            },
+            "model": "magmanetwork:item/server/trick_or_treat/cauldron"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1,
+                "filled": 0.0000001
+            },
+            "model": "magmanetwork:item/server/trick_or_treat/cauldron1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1,
+                "filled": 0.66 
+            },
+            "model": "magmanetwork:item/server/trick_or_treat/cauldron2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1,
+                "filled": 1 
+            },
+            "model": "magmanetwork:item/server/trick_or_treat/cauldron3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2,
+                "filled": 0
+            },
+            "model": "magmanetwork:item/players/daniel99j/bag_empty"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2,
+                "filled": 0.0000001
+            },
+            "model": "magmanetwork:item/players/daniel99j/bag"
+        }
+    ]
+}

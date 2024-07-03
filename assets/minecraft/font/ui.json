@@ -1,0 +1,185 @@
+{
+  "providers": [
+    {
+      "type": "reference",
+      "id": "minecraft:include/space"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/default"
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:font/wildfire.png",
+      "ascent": 2,
+      "height": 42,
+      "chars": ["ꍩ"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/wildfire.png",
+      "ascent": 19,
+      "height": 256,
+      "chars":["숰"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/profile.png",
+      "ascent": 19,
+      "height": 256,
+      "chars":["㽋"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/password.png",
+      "ascent": 13,
+      "height": 256,
+      "chars":["솙"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui_dark/wildfire.png",
+      "ascent": 19,
+      "height": 256,
+      "chars":["숱"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui_dark/password.png",
+      "ascent": 13,
+      "height": 256,
+      "chars":["ꎅ"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/fletching.png",
+      "ascent": 13,
+      "height": 256,
+      "chars":["䗿"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/fletching_no.png",
+      "ascent": 13,
+      "height": 256,
+      "chars":["䘩"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui_dark/fletching.png",
+      "ascent": 13,
+      "height": 256,
+      "chars":["䖨"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui_dark/fletching_no.png",
+      "ascent": 13,
+      "height": 256,
+      "chars":["䘴"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui_dark/profile.png",
+      "ascent": 19,
+      "height": 256,
+      "chars":["⾹"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/settings.png",
+      "ascent": 24,
+      "height": 256,
+      "chars":["䄰"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui_dark/settings.png",
+      "ascent": 20,
+      "height": 256,
+      "chars":["䪥"]
+    },
+    {
+      "type": "space",
+      "advances":{
+       "": -8
+      }
+    },
+    {
+       "type": "space",
+       "advances":{
+        "": -60
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/head_pixel.png",
+      "ascent": 7,
+      "height": 16,
+      "chars": ["\u3c21"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/head_pixel.png",
+      "ascent": 6,
+      "height": 16,
+      "chars": ["\u3c22"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/head_pixel.png",
+      "ascent": 5,
+      "height": 16,
+      "chars": ["\u3c23"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/head_pixel.png",
+      "ascent": 4,
+      "height": 16,
+      "chars": ["\u3c24"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/head_pixel.png",
+      "ascent": 3,
+      "height": 16,
+      "chars": ["\u3c25"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/head_pixel.png",
+      "ascent": 2,
+      "height": 16,
+      "chars": ["\u3c26"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/head_pixel.png",
+      "ascent": 1,
+      "height": 16,
+      "chars": ["\u3c27"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/head_pixel.png",
+      "ascent": 0,
+      "height": 16,
+      "chars": ["\u3c28"]
+    },
+    {
+      "type": "bitmap",
+      "file": "magmanetwork:ui/black_overlay.png",
+      "ascent": 250,
+      "height": 1500,
+      "chars": ["䗧"]
+    },
+    {
+      "type": "space",
+      "advances":{
+        "\u3c29": -3,
+        "\u3c20": -1
+     }
+   }
+  ]
+}

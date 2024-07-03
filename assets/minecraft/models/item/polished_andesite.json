@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/polished_andesite",
+  "overrides": [
+	{
+		
+		"predicate": {
+			"custom_model_data": 1
+		},
+		"model": "magmanetwork:item/players/daniel99j/big_polished_andesite"
+	}
+  ]
+}

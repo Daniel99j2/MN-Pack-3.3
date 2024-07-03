@@ -1,0 +1,106 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 102],
+	"textures": {
+		"0": "magmanetwork:item/server/copper_golem/golem1",
+		"particle": "magmanetwork:item/server/copper_golem/golem1"
+	},
+	"elements": [
+		{
+			"name": "right_arm",
+			"from": [7, 1, 8],
+			"to": [9, 11, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 10]},
+			"faces": {
+				"north": {"uv": [11.25, 5.4902, 11.75, 7.05882], "texture": "#0"},
+				"east": {"uv": [10.5, 5.4902, 11.25, 7.05882], "texture": "#0"},
+				"south": {"uv": [12.5, 5.4902, 13, 7.05882], "texture": "#0"},
+				"west": {"uv": [11.75, 5.4902, 12.5, 7.05882], "texture": "#0"},
+				"up": {"uv": [11.75, 5.4902, 11.25, 5.01961], "texture": "#0"},
+				"down": {"uv": [12.25, 5.01961, 11.75, 5.4902], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "head",
+			"origin": [8, 9, 4],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "bill",
+			"origin": [8, 9, 4],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "chin",
+			"origin": [8, 9, 4],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "body",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "head2",
+					"origin": [8, 9, 10],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "left_wing",
+			"origin": [4, 11, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "left_arm",
+					"origin": [4, 10, 7],
+					"color": 0,
+					"nbt": "{}",
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "right_wing",
+			"origin": [12, 11, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "right_arm",
+					"origin": [12, 10, 7],
+					"color": 0,
+					"nbt": "{}",
+					"children": [0]
+				}
+			]
+		},
+		{
+			"name": "left_leg",
+			"origin": [7, 5, 9],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		},
+		{
+			"name": "right_leg",
+			"origin": [10, 5, 9],
+			"color": 0,
+			"nbt": "{}",
+			"children": []
+		}
+	]
+}

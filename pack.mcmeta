@@ -1,0 +1,15 @@
+{
+   "pack":{
+      "pack_format":22,
+      "description":"Magma Network Pack 3.3",
+	  "_credits": "Pack put together by Daniel99j"
+   },
+   "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "models/block/xray"
+      }
+    ]
+  }
+}

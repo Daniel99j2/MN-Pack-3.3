@@ -1,0 +1,61 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "magmanetwork:item/server/wildfire"
+	},
+	"elements": [
+		{
+			"name": "body",
+			"from": [6, 0, 6],
+			"to": [10, 21, 10],
+			"faces": {
+				"north": {"uv": [1, 1, 2, 6.25], "texture": "#0"},
+				"east": {"uv": [0, 1, 1, 6.25], "texture": "#0"},
+				"south": {"uv": [3, 1, 4, 6.25], "texture": "#0"},
+				"west": {"uv": [2, 1, 3, 6.25], "texture": "#0"},
+				"up": {"uv": [2, 1, 1, 0], "texture": "#0"},
+				"down": {"uv": [3, 0, 2, 1], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [173.72, 29.15, 174.34],
+			"translation": [3.75, -1.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-176.44, 26.51, 161.91],
+			"translation": [5, -3.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [167.78, 29.71, -170.05],
+			"translation": [0, -3.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"translation": [0, -30.25, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "body",
+			"origin": [7, 26, -7],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0]
+		}
+	]
+}

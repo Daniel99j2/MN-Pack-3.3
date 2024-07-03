@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/red_carpet",
+  "overrides": [
+	{
+		
+		"predicate": {
+			"custom_model_data": 1
+		},
+		"model": "magmanetwork:item/players/hugo99j/fake_red_carpet"
+	}
+  ]
+}

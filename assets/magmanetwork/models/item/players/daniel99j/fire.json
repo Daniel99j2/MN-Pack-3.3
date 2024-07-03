@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "magmanetwork:item/players/daniel99j/fire",
+		"particle": "magmanetwork:item/players/daniel99j/fire"
+	},
+	"elements": [
+		{
+			"from": [0, -16, 8],
+			"to": [16, 32, 8.01],
+			"faces": {
+				"north": {"uv": [0, 3, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0.01, 16], "texture": "#0"},
+				"south": {"uv": [0, 3, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0.01, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0.01], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0.01], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, -16, 0],
+			"to": [8.01, 32, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 0.01, 16], "texture": "#0"},
+				"east": {"uv": [0, 3, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 0.01, 16], "texture": "#0"},
+				"west": {"uv": [0, 3, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 0.01, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 0.01, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3, 1],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [1, 0.25, 1]
+		},
+		"head": {
+			"translation": [0, 80, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [-88.5, 0, 0],
+			"translation": [0, 0, -46],
+			"scale": [2, 2, 2]
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/quartz_block",
+  "overrides": [
+	{
+		
+		"predicate": {
+			"custom_model_data": 1
+		},
+		"model": "magmanetwork:item/players/daniel99j/big_quartz_block"
+	}
+  ]
+}

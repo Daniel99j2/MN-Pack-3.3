@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "magmanetwork:item/server/firefly_in_a_bottle"
+  }
+}

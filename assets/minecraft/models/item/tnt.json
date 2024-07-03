@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:block/tnt",
+  "overrides": [
+	{
+		"predicate": {
+			"custom_model_data": 1
+		},
+		"model": "magmanetwork:item/server/underwater_tnt"
+	},
+	{
+		"predicate": {
+			"custom_model_data": 2
+		},
+		"model": "magmanetwork:item/players/daniel99j/big_tnt"
+	},
+	{
+		"predicate": {
+			"custom_model_data": 1000
+		},
+		"model": "minecraft:block/tnt"
+	},
+	{
+		"predicate": {
+			"custom_model_data": 1001
+		},
+		"model": "magmanetwork:item/server/underwater_tnt"
+	}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 102],
+	"textures": {
+		"0": "magmanetwork:item/server/copper_golem/golem1",
+		"particle": "magmanetwork:item/server/copper_golem/golem1"
+	},
+	"elements": [
+		{
+			"name": "right_leg",
+			"from": [6, 0, 8],
+			"to": [10, 5, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 10]},
+			"faces": {
+				"north": {"uv": [5.25, 8.62745, 6.25, 9.41176], "texture": "#0"},
+				"east": {"uv": [4.5, 8.62745, 5.25, 9.41176], "texture": "#0"},
+				"south": {"uv": [7, 8.62745, 8, 9.41176], "texture": "#0"},
+				"west": {"uv": [6.25, 8.62745, 7, 9.41176], "texture": "#0"},
+				"up": {"uv": [6.25, 8.62745, 5.25, 8.15686], "texture": "#0"},
+				"down": {"uv": [7.25, 8.15686, 6.25, 8.62745], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "right_leg",
+			"origin": [10, 5, 9],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0]
+		}
+	]
+}

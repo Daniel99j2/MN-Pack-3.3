@@ -1,0 +1,98 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "magmanetwork:emojis/emojis.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": [
+                "뜀뜁뜂뜃뜄",
+                "뜅뜆뜇뜈뜉",
+                "뜊뜋뜌뜍뜎",
+                "뜏뜐뜑뜒뜓",
+                "뜔뜕뜖뜗뜘",
+                "뜙뜚뜛뜜뜝",
+                "뜞뜟뜠뜡뜢",
+                "뜣뜤뜥뜦뜧",
+                "뜨뜩뜪뜫뜬",
+                "뜭뜮뜯뜰뜱",
+                "뜲뜳뜴뜵뜶",
+                "뜷뜸뜹뜺뜻",
+                "뜼뜽뜾뜿띐",
+                "띑띒띓띔띕",
+                "띖띗띘띙띚",
+                "띛띜띝띞띟",
+                "띠띡띢띣띤",
+                "띥띦띧띨띩",
+                "띪띫띬띭띮",
+                "띯띰띱띲띳",
+                "띴띵띶띷띸"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magmanetwork:emojis/emojis2.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": [
+                "렀렁렂렃렄",
+                "렅렆렇레렉",
+                "렊렋렌렍렎",
+                "렏렐렑렒렓",
+                "렔렕렖렗렘",
+                "렙렚렛렜렝",
+                "렞렟렠렡렢",
+                "렣려력렦렧",
+                "련렩렪렫렬",
+                "렭렮렯렰렱",
+                "렲렳렴렵렶",
+                "렷렸령렺렻",
+                "렼렽렾롏롐",
+                "롑롒롓롔롕",
+                "롖롗롘롙롚",
+                "롛로록롞롟",
+                "론롡롢롣롤",
+                "롥롦롧롨롩",
+                "롪롫롬롭롮",
+                "롯롰롱롲롳",
+                "롴롵롶롷롸"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magmanetwork:emojis/kekw.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": [
+                "띀"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magmanetwork:emojis/kekwhyper.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": [
+                "띁"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magmanetwork:emojis/pog.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": [
+                "띂"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "magmanetwork:emojis/wut.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": [
+                "띃"
+            ]
+        }
+    ]
+}

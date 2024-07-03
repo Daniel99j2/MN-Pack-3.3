@@ -1,0 +1,121 @@
+{
+    "test": {
+        "sounds": [
+            {
+                "name": "wet_fart"
+            }
+        ],
+        "subtitle": "Test noise"
+    },
+    "entity.parrot.agree": {
+        "sounds": [
+            {
+                "name": "entity/parrot/parrot_agree"
+            }
+        ],
+        "subtitle": "subtitles.entity.parrot.agree"
+    },
+    "entity.parrot.deny": {
+        "sounds": [
+            {
+                "name": "entity/parrot/parrot_deny"
+            }
+        ],
+        "subtitle": "subtitles.entity.parrot.deny"
+    },
+    "entity.parrot.deliver": {
+        "sounds": [
+            {
+                "name": "entity/parrot/parrot_deliver"
+            }
+        ],
+        "subtitle": "subtitles.entity.parrot.deliver"
+    },
+    "block.copper_door.jammed": {
+        "sounds": [
+          "block/copper_door/toggle1",
+          "block/copper_door/toggle2",
+          "block/copper_door/toggle3"
+        ],
+        "pitch": 0.0,
+        "subtitle": "subtitles.block.copper_door.jammed"
+    },
+    "entity.player.dash": {
+        "sounds": [
+          "dig/sand1",
+          "dig/sand2",
+          "dig/sand3",
+          "dig/sand4"
+        ],
+        "subtitle": "subtitles.entity.player.dash"
+    },
+    "entity.copper_golem.hurt": {
+        "sounds": [
+          "dig/sand1",
+          "dig/sand2",
+          "dig/sand3",
+          "dig/sand4"
+        ],
+        "subtitle": "subtitles.entity.copper_golem.hurt"
+    },
+    "entity.copper_golem.death": {
+        "sounds": [
+          "entity/iron_golem/death"
+        ],
+        "subtitle": "subtitles.entity.copper_golem.death"
+    },
+    "block.note_block.note.harpsichord": {
+        "sounds": [
+          "block/note_block/note/harpsichord"
+        ],
+        "subtitle": "subtitles.block.note_block.note"
+    },
+    "block.note_block.note.electric_guitar": {
+        "sounds": [
+          "block/note_block/note/electric_guitar"
+        ],
+        "subtitle": "subtitles.block.note_block.note"
+    },
+    "block.note_block.note.amethyst": {
+        "sounds": [
+          "block/amethyst/break1"
+        ],
+        "subtitle": "subtitles.block.note_block.note"
+    },
+    "block.note_block.note.buzz": {
+        "sounds": [
+          "block/note_block/note/buzz"
+        ],
+        "subtitle": "subtitles.block.note_block.note"
+    },
+    "block.note_block.note.duooo": {
+        "sounds": [
+          "block/note_block/note/duooo_idk"
+        ],
+        "subtitle": "subtitles.block.note_block.note"
+    },
+    "block.note_block.note.organ": {
+        "sounds": [
+          "block/note_block/note/organ"
+        ],
+        "subtitle": "subtitles.block.note_block.note"
+    },
+    "block.note_block.note.bongo_drum": {
+        "sounds": [
+          "block/note_block/note/bongo_drum"
+        ],
+        "subtitle": "subtitles.block.note_block.note"
+    },
+    "block.note_block.note.music_box": {
+        "sounds": [
+          "block/note_block/note/music_box"
+        ],
+        "subtitle": "subtitles.block.note_block.note"
+    },
+    "block.note_block.note.secret": {
+        "sounds": [
+          "block/note_block/note/fart"
+        ],
+        "subtitle": "subtitles.block.note_block.fart"
+    }
+}

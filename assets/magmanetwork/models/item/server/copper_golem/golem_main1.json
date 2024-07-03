@@ -1,0 +1,6 @@
+{
+    "parent": "magmanetwork:item/server/copper_golem/template/golem_main",
+    "textures": {
+        "0": "magmanetwork:item/server/copper_golem/golem1"
+    }
+}

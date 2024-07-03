@@ -1,0 +1,95 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"particle": "block/glass",
+		"glass": "block/glass",
+		"obsidian": "block/obsidian",
+		"beacon": "block/beacon",
+		"respawn_anchor_bottom": "block/respawn_anchor_bottom",
+		"respawn_anchor_side": "block/respawn_anchor_side4",
+		"respawn_anchor_top": "block/respawn_anchor_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0.25, 0.25],
+			"to": [16, 16.25, 16.25],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8.25, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#respawn_anchor_top"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#respawn_anchor_side"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#respawn_anchor_bottom"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#respawn_anchor_side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#respawn_anchor_side"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#respawn_anchor_side"}
+			}
+		},
+		{
+			"name": "glass",
+			"from": [0, 0.25, -15.75],
+			"to": [16, 16.25, 0.25],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8.25, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#glass"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#glass"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#glass"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#glass"}
+			}
+		},
+		{
+			"name": "obsidian",
+			"from": [2, 2.25, -2.75],
+			"to": [14, 14.25, 0.15],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8.25, 0]},
+			"faces": {
+				"north": {"uv": [2, 2, 14, 14], "texture": "#obsidian"},
+				"east": {"uv": [2, 13, 14, 16], "rotation": 90, "texture": "#obsidian"},
+				"south": {"uv": [2, 2, 14, 14], "rotation": 180, "texture": "#obsidian"},
+				"west": {"uv": [2, 13, 14, 16], "rotation": 270, "texture": "#obsidian"},
+				"up": {"uv": [2, 13, 14, 16], "texture": "#obsidian"},
+				"down": {"uv": [2, 13, 14, 16], "rotation": 180, "texture": "#obsidian"}
+			}
+		},
+		{
+			"name": "beacon_inner",
+			"from": [3, 3.25, -13.75],
+			"to": [13, 13.25, -2.75],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8.25, 0]},
+			"faces": {
+				"north": {"uv": [3, 3, 13, 13], "texture": "#beacon"},
+				"east": {"uv": [3, 2, 13, 13], "rotation": 90, "texture": "#beacon"},
+				"south": {"uv": [3, 3, 13, 13], "rotation": 180, "texture": "#beacon"},
+				"west": {"uv": [3, 2, 13, 13], "rotation": 270, "texture": "#beacon"},
+				"up": {"uv": [3, 2, 13, 13], "texture": "#beacon"},
+				"down": {"uv": [3, 2, 13, 13], "rotation": 180, "texture": "#beacon"}
+			}
+		}
+	],
+	"display": {},
+	"groups": [
+		{
+			"name": "main",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				{
+					"name": "respawn_anchor",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": [0]
+				},
+				{
+					"name": "beacon",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"children": [1, 2, 3]
+				}
+			]
+		}
+	]
+}

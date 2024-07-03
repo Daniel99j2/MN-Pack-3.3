@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:item/template_skull",
+  "overrides": [
+	{
+		
+		"predicate": {
+			"custom_model_data": 1000
+		},
+		"model": "minecraft:item/template_skull"
+	},
+	{
+		"predicate": {
+			"custom_model_data": 1001
+		},
+		"model": "magmanetwork:item/server/head_gui"
+	},
+	{
+		"predicate": {
+			"custom_model_data": 1002
+		},
+		"model": "magmanetwork:item/server/grave_2"
+	}
+  ]
+}

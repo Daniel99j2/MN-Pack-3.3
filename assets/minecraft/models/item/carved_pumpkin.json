@@ -1,0 +1,59 @@
+{
+  "parent": "minecraft:block/carved_pumpkin",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "magmanetwork:item/players/daniel99j/ticket_please"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "magmanetwork:item/players/daniel99j/security"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "magmanetwork:item/players/daniel99j/tree"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "magmanetwork:item/players/daniel99j/pirate_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "magmanetwork:item/players/daniel99j/statue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "magmanetwork:item/players/daniel99j/head_arrow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "magmanetwork:item/players/daniel99j/spinny_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "magmanetwork:item/players/daniel99j/tnt_helmet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "magmanetwork:item/players/daniel99j/hat"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:block/red_carpet",
+    "textures": {
+        "particle": "minecraft:block/red_carpet"
+    },
+    "display": {
+        "fixed": {
+            "rotation": [ 90, 0, 0 ],
+            "translation": [ 0, 0, 14],
+            "scale":[ 2, 2, 2 ]
+        }
+    }
+}
