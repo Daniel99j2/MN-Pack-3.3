@@ -279,6 +279,12 @@
 				"custom_model_data": 1042
 			},
 			"model": "magmanetwork:item/server/eyes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1043
+			},
+			"model": "magmanetwork:item/server/golden_hopper"
 		}
 	]
 }
