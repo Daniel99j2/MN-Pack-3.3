@@ -1,0 +1,23 @@
+name: Zip Files
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v2
+
+    - name: Set up zip
+      run: sudo apt-get install zip -y
+
+    - name: Create pack.zip excluding the existing pack.zip
+      run: zip -r pack.zip . -x "pack.zip"
