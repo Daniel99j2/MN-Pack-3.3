@@ -9,6 +9,12 @@
 				"custom_model_data": 1
 			},
 			"model": "magmanetwork:item/players/daniel99j/mail"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "magmanetwork:item/players/daniel99j/quest"
 		}
   ]
 }
