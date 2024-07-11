@@ -16,14 +16,14 @@ jobs:
     - name: Check out the repository
       uses: actions/checkout@v2
 
-    - name: Set up zip
-      run: sudo apt-get install zip unzip -y
+    - name: Set up zip and rsync
+      run: sudo apt-get install zip unzip rsync -y
 
     - name: Unzip tweaks.zip
       run: unzip tweaks.zip -d tweaks
 
     - name: Copy repository files over tweaks files
-      run: cp -r . tweaks/
+      run: rsync -av --exclude='tweaks.zip' --exclude='tweaks/' ./ tweaks/
 
     - name: Create pack.zip excluding tweaks.zip and extracted tweaks folder
       run: |
