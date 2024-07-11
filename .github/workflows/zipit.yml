@@ -1,4 +1,4 @@
-name: Zip Files
+name: Combine and Zip Files
 
 on:
   push:
@@ -17,10 +17,18 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Set up zip
-      run: sudo apt-get install zip -y
+      run: sudo apt-get install zip unzip -y
 
-    - name: Create pack.zip excluding the existing pack.zip
-      run: zip -r pack.zip . -x "pack.zip"
+    - name: Unzip tweaks.zip
+      run: unzip tweaks.zip -d tweaks
+
+    - name: Copy repository files over tweaks files
+      run: cp -r . tweaks/
+
+    - name: Create pack.zip excluding tweaks.zip and extracted tweaks folder
+      run: |
+        cd tweaks
+        zip -r ../pack.zip . -x "tweaks.zip" "tweaks/"
 
     - name: Commit and push pack.zip
       env:
