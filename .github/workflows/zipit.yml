@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Set up zip and rsync
-      run: sudo apt-get install zip unzip rsync -y
+      run: sudo apt-get install zip unzip rsync jq -y
 
     - name: Unzip tweaks.zip
       run: unzip tweaks.zip -d tweaks
@@ -37,12 +37,9 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        tag=$(date +%Y%m%d%H%M%S)
-        release_id=$(curl -s -X POST \
+        release_id=$(curl -s \
           -H "Authorization: token $GITHUB_TOKEN" \
-          -H "Content-Type: application/json" \
-          -d "{\"tag_name\": \"$tag\", \"name\": \"$tag\", \"draft\": false, \"prerelease\": false}" \
-          https://api.github.com/repos/${{ github.repository }}/releases | jq -r .id)
+          https://api.github.com/repos/${{ github.repository }}/releases/tags/Main | jq -r .id)
         curl -s -X POST \
           -H "Authorization: token $GITHUB_TOKEN" \
           -H "Content-Type: application/zip" \
