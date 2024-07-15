@@ -83,5 +83,7 @@
   "subtitles.block.note_block.fart": "Fart Block Farts!",
   "gui.magmanetwork.minecart_title": "Minecart",
   "gui.magmanetwork.name.if-noclip": "No-Clip: %s",
-  "block.magmanetwork.sleeping_bag": "Sleeping Bag"
+  "block.magmanetwork.sleeping_bag": "Sleeping Bag",
+  "block.magmanetwork.blackstone_piston": "Blackstone Piston",
+  "block.magmanetwork.blackstone_sticky_piston": "Blackstone Sticky Piston"
 }

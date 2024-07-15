@@ -285,6 +285,24 @@
 				"custom_model_data": 1043
 			},
 			"model": "magmanetwork:item/server/golden_hopper"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1044
+			},
+			"model": "magmanetwork:item/server/blackstone_piston"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1045
+			},
+			"model": "magmanetwork:item/server/blackstone_piston_item"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1046
+			},
+			"model": "magmanetwork:item/server/blackstone_sticky_piston_item"
 		}
 	]
 }

@@ -10,7 +10,7 @@
     "entity.parrot.agree": {
         "sounds": [
             {
-                "name": "entity/parrot/parrot/agree"
+                "name": "entity/parrot/agree"
             }
         ],
         "subtitle": "subtitles.entity.parrot.agree"
@@ -18,7 +18,7 @@
     "entity.parrot.deny": {
         "sounds": [
             {
-                "name": "entity/parrot/parrot/deny"
+                "name": "entity/parrot/deny"
             }
         ],
         "subtitle": "subtitles.entity.parrot.deny"
@@ -26,7 +26,7 @@
     "entity.parrot.deliver": {
         "sounds": [
             {
-                "name": "entity/parrot/parrot/deliver"
+                "name": "entity/parrot/deliver"
             }
         ],
         "subtitle": "subtitles.entity.parrot.deliver"
