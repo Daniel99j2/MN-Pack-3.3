@@ -303,6 +303,36 @@
 				"custom_model_data": 1046
 			},
 			"model": "magmanetwork:item/server/blackstone_sticky_piston_item"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1047
+			},
+			"model": "magmanetwork:item/server/firefly_hurt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1048
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_arms_hurt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1049
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_head_hurt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1050
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_legs_hurt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1051
+			},
+			"model": "magmanetwork:item/server/copper_golem/golem_torso_hurt"
 		}
 	]
 }
