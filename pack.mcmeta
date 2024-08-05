@@ -2,8 +2,7 @@
    "pack":{
       "pack_format":26,
       "description":"Magma Network Pack 3.3",
-	    "_credits": "Pack put together by Daniel99j"
-   },
+  },
    "filter": {
     "block": [
       {
