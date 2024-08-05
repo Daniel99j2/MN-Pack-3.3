@@ -1,0 +1,21 @@
+{
+    "parent": "item/generated",
+    "textures": {
+    "layer0": "minecraft:item/wolf_armor",
+    "layer1": "minecraft:item/wolf_armor_overlay"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "magmanetwork:item/players/daniel99j/plate"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1000
+            },
+            "model": "item/leather_horse_armor"
+        }
+      ]
+}

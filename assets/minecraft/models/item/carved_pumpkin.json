@@ -54,6 +54,12 @@
         "custom_model_data": 9
       },
       "model": "magmanetwork:item/players/daniel99j/hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "magmanetwork:item/players/daniel99j/chef_hat"
     }
   ]
 }

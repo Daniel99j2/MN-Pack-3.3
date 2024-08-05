@@ -1,0 +1,8 @@
+{
+    "parent": "block/piston_extended",
+    "textures": {
+        "bottom": "magmanetwork:item/server/blackstone_piston_bottom",
+        "side": "magmanetwork:item/server/blackstone_piston_side",
+        "inside": "magmanetwork:item/server/blackstone_piston_inner"
+    }
+}

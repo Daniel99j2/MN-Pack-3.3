@@ -36,6 +36,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "magmanetwork:item/players/daniel99j/cooking_slot"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 1001
 			},
 			"model": "minecraft:item/paper"

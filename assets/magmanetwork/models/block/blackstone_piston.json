@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/template_piston",
+  "textures": {
+    "bottom": "magmanetwork:item/server/blackstone_piston_bottom",
+    "platform": "magmanetwork:item/server/blackstone_piston_top",
+    "side": "magmanetwork:item/server/blackstone_piston_side"
+  }
+}
