@@ -42,6 +42,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 7
+			},
+			"model": "magmanetwork:item/players/daniel99j/bin"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 1001
 			},
 			"model": "minecraft:item/paper"
@@ -339,6 +345,12 @@
 				"custom_model_data": 1051
 			},
 			"model": "magmanetwork:item/server/copper_golem/golem_torso_hurt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1052
+			},
+			"model": "magmanetwork:item/server/copper_golem/filter"
 		}
 	]
 }
