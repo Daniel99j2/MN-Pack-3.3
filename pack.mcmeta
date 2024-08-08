@@ -1,14 +1,6 @@
 {
-   "pack":{
-      "pack_format": 26,
-      "description":"Magma Network Pack 3.3",
-  },
-   "filter": {
-    "block": [
-      {
-        "namespace": "minecraft",
-        "path": "models/block/xray"
-      }
-    ]
+  "pack": {
+    "pack_format": 34,
+    "description": "Magma Network Pack 3.3"
   }
 }
