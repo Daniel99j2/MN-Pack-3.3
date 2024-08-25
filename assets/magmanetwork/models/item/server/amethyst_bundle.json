@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "magmanetwork:item/server/amethyst_bundle",
+		"particle": "magmanetwork:item/server/amethyst_bundle"
+	}
+}

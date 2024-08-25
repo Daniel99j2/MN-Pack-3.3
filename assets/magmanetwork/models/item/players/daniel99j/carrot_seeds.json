@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "magmanetwork:item/players/daniel99j/carrot_seeds",
+    "particle": "item/barrier"
+  }
+}

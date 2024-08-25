@@ -85,5 +85,11 @@
   "gui.magmanetwork.name.if-noclip": "No-Clip: %s",
   "block.magmanetwork.sleeping_bag": "Sleeping Bag",
   "block.magmanetwork.blackstone_piston": "Blackstone Piston",
-  "block.magmanetwork.blackstone_sticky_piston": "Blackstone Sticky Piston"
+  "block.magmanetwork.blackstone_sticky_piston": "Blackstone Sticky Piston",
+  "item.magmanetwork.amethyst_bundle": "Amethyst Bundle",
+  "enchantment.magmanetwork.dash": "Dash",
+  "item.magmanetwork.gun": "Gun",
+  "subtitles.item.gun.fire": "Gun fires",
+  "subtitles.item.gun.reload": "Gun reloads",
+  "entity.magmanetwork.bullet": "Bullet"
 }

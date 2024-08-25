@@ -1,0 +1,8 @@
+{
+	"parent": "magmanetwork:item/server/gun",
+	"textures": {
+		"0": "magmanetwork:item/server/gun",
+		"1": "magmanetwork:item/server/gun_bang",
+		"particle": "magmanetwork:item/server/gun"
+	}
+}

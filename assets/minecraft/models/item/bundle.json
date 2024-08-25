@@ -46,6 +46,20 @@
                 "filled": 0.0000001
             },
             "model": "magmanetwork:item/players/daniel99j/bag"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1001,
+                "filled": 0
+            },
+            "model": "magmanetwork:item/server/amethyst_bundle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1001,
+                "filled": 0.0000001
+            },
+            "model": "magmanetwork:item/server/amethyst_bundle_filled"
         }
     ]
 }

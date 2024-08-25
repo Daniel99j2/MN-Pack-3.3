@@ -117,5 +117,21 @@
           "block/note_block/note/fart"
         ],
         "subtitle": "subtitles.block.note_block.fart"
-    }
+    },
+    "item.gun.fire": {
+      "sounds": [
+          {
+              "name": "item/gun/fire"
+          }
+      ],
+      "subtitle": "subtitles.item.gun.fire"
+  },
+  "item.gun.reload": {
+    "sounds": [
+        {
+            "name": "item/gun/reload"
+        }
+    ],
+    "subtitle": "subtitles.item.gun.reload"
+  }
 }

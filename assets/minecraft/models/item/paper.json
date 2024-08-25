@@ -48,6 +48,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 8
+			},
+			"model": "magmanetwork:item/players/daniel99j/balloon_allay"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 1001
 			},
 			"model": "minecraft:item/paper"
@@ -350,7 +356,20 @@
 			"predicate": {
 				"custom_model_data": 1052
 			},
-			"model": "magmanetwork:item/server/copper_golem/filter"
+			"model": "magmanetwork:item/server/gun"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1052,
+				"cooldown": 0.001
+			},
+			"model": "magmanetwork:item/server/gun_shooting"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1053
+			},
+			"model": "magmanetwork:item/server/gun"
 		}
 	]
 }
