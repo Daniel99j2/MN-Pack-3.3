@@ -370,6 +370,18 @@
 				"custom_model_data": 1053
 			},
 			"model": "magmanetwork:item/server/gun"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1054
+			},
+			"model": "magmanetwork:item/server/crate"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1055
+			},
+			"model": "magmanetwork:item/server/crate_top"
 		}
 	]
 }
