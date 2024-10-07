@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "magmanetwork:item/server/north_compass/north_compass_15"
+  }
+}

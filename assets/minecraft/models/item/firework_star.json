@@ -22,6 +22,12 @@
                 "custom_model_data": 1002
             },
             "model": "magmanetwork:item/server/sleeping_bag"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1003
+            },
+            "model": "magmanetwork:item/server/beacon/beam1"
         }
       ]
 }

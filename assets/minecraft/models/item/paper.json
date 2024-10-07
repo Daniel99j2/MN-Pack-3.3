@@ -382,6 +382,24 @@
 				"custom_model_data": 1055
 			},
 			"model": "magmanetwork:item/server/crate_top"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1056
+			},
+			"model": "magmanetwork:item/server/pipe_bomb"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1057
+			},
+			"model": "magmanetwork:item/server/wheat_on_a_stick"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1058
+			},
+			"model": "magmanetwork:item/server/quiver_empty"
 		}
 	]
 }
