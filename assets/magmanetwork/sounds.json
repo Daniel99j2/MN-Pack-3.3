@@ -2,7 +2,7 @@
     "test": {
         "sounds": [
             {
-                "name": "wet_fart"
+                "name": "magmanetwork:wet_fart"
             }
         ],
         "subtitle": "Test noise"
@@ -10,7 +10,7 @@
     "entity.parrot.agree": {
         "sounds": [
             {
-                "name": "entity/parrot/agree"
+                "name": "magmanetwork:entity/parrot/agree"
             }
         ],
         "subtitle": "subtitles.entity.parrot.agree"
@@ -18,7 +18,7 @@
     "entity.parrot.deny": {
         "sounds": [
             {
-                "name": "entity/parrot/deny"
+                "name": "magmanetwork:entity/parrot/deny"
             }
         ],
         "subtitle": "subtitles.entity.parrot.deny"
@@ -26,7 +26,7 @@
     "entity.parrot.deliver": {
         "sounds": [
             {
-                "name": "entity/parrot/deliver"
+                "name": "magmanetwork:entity/parrot/deliver"
             }
         ],
         "subtitle": "subtitles.entity.parrot.deliver"
@@ -60,19 +60,19 @@
     },
     "entity.copper_golem.death": {
         "sounds": [
-          "entity/iron_golem/death"
+          "magmanetwork:entity/iron_golem/death"
         ],
         "subtitle": "subtitles.entity.copper_golem.death"
     },
     "block.note_block.note.harpsichord": {
         "sounds": [
-          "block/note_block/note/harpsichord"
+          "magmanetwork:block/note_block/note/harpsichord"
         ],
         "subtitle": "subtitles.block.note_block.note"
     },
     "block.note_block.note.electric_guitar": {
         "sounds": [
-          "block/note_block/note/electric_guitar"
+          "magmanetwork:block/note_block/note/electric_guitar"
         ],
         "subtitle": "subtitles.block.note_block.note"
     },
@@ -84,44 +84,44 @@
     },
     "block.note_block.note.buzz": {
         "sounds": [
-          "block/note_block/note/buzz"
+          "magmanetwork:block/note_block/note/buzz"
         ],
         "subtitle": "subtitles.block.note_block.note"
     },
     "block.note_block.note.duooo": {
         "sounds": [
-          "block/note_block/note/duooo_idk"
+          "magmanetwork:block/note_block/note/duooo_idk"
         ],
         "subtitle": "subtitles.block.note_block.note"
     },
     "block.note_block.note.organ": {
         "sounds": [
-          "block/note_block/note/organ"
+          "magmanetwork:block/note_block/note/organ"
         ],
         "subtitle": "subtitles.block.note_block.note"
     },
     "block.note_block.note.bongo_drum": {
         "sounds": [
-          "block/note_block/note/bongo_drum"
+          "magmanetwork:block/note_block/note/bongo_drum"
         ],
         "subtitle": "subtitles.block.note_block.note"
     },
     "block.note_block.note.music_box": {
         "sounds": [
-          "block/note_block/note/music_box"
+          "magmanetwork:block/note_block/note/music_box"
         ],
         "subtitle": "subtitles.block.note_block.note"
     },
     "block.note_block.note.secret": {
         "sounds": [
-          "block/note_block/note/fart"
+          "magmanetwork:block/note_block/note/fart"
         ],
         "subtitle": "subtitles.block.note_block.fart"
     },
     "item.gun.fire": {
       "sounds": [
           {
-              "name": "item/gun/fire"
+              "name": "magmanetwork:item/gun/fire"
           }
       ],
       "subtitle": "subtitles.item.gun.fire"
@@ -129,9 +129,49 @@
   "item.gun.reload": {
     "sounds": [
         {
-            "name": "item/gun/reload"
+            "name": "magmanetwork:item/gun/reload"
         }
     ],
     "subtitle": "subtitles.item.gun.reload"
+  },
+  "space.ship_crash": {
+    "sounds": [
+        {
+            "name": "magmanetwork:space/ship_crash"
+        }
+    ],
+    "subtitle": "subtitles.space.ship_crash"
+  },
+  "space.ship_alarm": {
+    "sounds": [
+        {
+            "name": "magmanetwork:space/ship_alarm"
+        }
+    ],
+    "subtitle": "subtitles.space.ship_alarm"
+  },
+  "space.warning_critical": {
+    "sounds": [
+        {
+            "name": "magmanetwork:space/warning_critical"
+        }
+    ],
+    "subtitle": "subtitles.space.warning_critical"
+  },
+  "space.warning_low": {
+    "sounds": [
+        {
+            "name": "magmanetwork:space/warning_low"
+        }
+    ],
+    "subtitle": "subtitles.space.warning_low"
+  },
+  "space.toggle_glass": {
+    "sounds": [
+        {
+            "name": "magmanetwork:space/toggle_glass"
+        }
+    ],
+    "subtitle": "subtitles.space.toggle_glass"
   }
 }
